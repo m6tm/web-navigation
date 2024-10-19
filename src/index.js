@@ -56,11 +56,9 @@ const userSessionDirectory = `${storageDirectory}/${userToken}`;
     }
 
     let is_connected = await isConnectedToGoogle(browser);
-    console.log('before', is_connected);
     if (!is_connected) {
         is_connected = await runConnexionToGoogleAccount(browser)
     }
-    console.log('after', is_connected);
     await page.pause();
 
     // Ferme le navigateur

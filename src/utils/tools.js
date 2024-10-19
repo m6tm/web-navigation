@@ -97,9 +97,9 @@ async function anotherAccountExist(page) {
 }
 
 /**
- * 
+ * Lance la connexion à un compte Google
  * @param {import('playwright').BrowserContext} browser 
- * @returns 
+ * @returns {Promise<boolean>}
  */
 async function runConnexionToGoogleAccount(browser) {
     const page = await browser.newPage();
