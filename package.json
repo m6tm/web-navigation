@@ -1,0 +1,15 @@
+{
+  "name": "web-navigation",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {},
+  "scripts": {
+    "dev": "clear && node src"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.21.0",
+    "fs": "^0.0.1-security",
+    "playwright": "^1.48.1"
+  }
+}
