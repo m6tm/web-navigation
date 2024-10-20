@@ -14,7 +14,7 @@
     "autoprefixer": "^10.4.20",
     "cookie-parser": "~1.4.4",
     "debug": "~2.6.9",
-    "ejs": "~2.6.1",
+    "ejs": "~3.1.10",
     "express": "^4.21.1",
     "fs": "^0.0.1-security",
     "http-errors": "~1.6.3",
