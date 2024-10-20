@@ -1,15 +1,25 @@
 {
   "name": "web-navigation",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "app.js",
   "license": "MIT",
-  "devDependencies": {},
   "scripts": {
-    "dev": "clear && node src"
+    "start": "node ./app.js",
+    "dev": "nodemon ./app.js"
   },
   "dependencies": {
     "@google/generative-ai": "^0.21.0",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "ejs": "~2.6.1",
+    "express": "^4.21.1",
     "fs": "^0.0.1-security",
+    "http-errors": "~1.6.3",
+    "less-middleware": "~2.2.1",
+    "morgan": "~1.9.1",
     "playwright": "^1.48.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
   }
 }
